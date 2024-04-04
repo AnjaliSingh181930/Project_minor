@@ -1,0 +1,10 @@
+
+# *****1. Implement the below steps for the counter first**********8
+Multiply x and y with 2000
+read counter_gcell_coords.txt for x and y gcell coordinates
+use c++ equivalent of the bisect.bisect_left function to get the index of gcell where each pin belongs
+club the pins belonging to one gcell as one node
+draw the graph
+#2. show the graph to me
+#3. Run for all the circuits (these are very large with Lakhs of nodes), use gcell_coords.txt file
+

@@ -1,0 +1,68 @@
+*SPEF "IEEE 1481-1998"
+*DESIGN "counter"
+*DATE "Mon Mar 18 14:39:20 2024"
+*VENDOR "Cadence Design Systems, Inc."
+*PROGRAM "Innovus"
+*VERSION "16.26-s040_1"
+*DESIGN_FLOW "PIN_CAP NONE" "NAME_SCOPE LOCAL"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1 NS
+*C_UNIT 1 PF
+*R_UNIT 1 OHM
+*L_UNIT 1 HENRY
+
+Name: clk, Number: 1, X co-ordinate: 0, Y co-ordinate: 20000, Grid vertex name: 3, Input Details: 
+Name: rst, Number: 2, X co-ordinate: 18000, Y co-ordinate: 38000, Grid vertex name: 36, Input Details: 
+Name: SE, Number: 3, X co-ordinate: 44000, Y co-ordinate: 20000, Grid vertex name: 83, Input Details: 
+Name: scan_in, Number: 4, X co-ordinate: 20000, Y co-ordinate: 0, Grid vertex name: 30, Input Details: 
+Name: count[7], Number: 5, X co-ordinate: 22000, Y co-ordinate: 38000, Grid vertex name: 36, Input Details: 
+Name: count[6], Number: 6, X co-ordinate: 28000, Y co-ordinate: 38000, Grid vertex name: 46, Input Details: 
+Name: count[5], Number: 7, X co-ordinate: 16000, Y co-ordinate: 38000, Grid vertex name: 26, Input Details: 
+Name: count[4], Number: 8, X co-ordinate: 0, Y co-ordinate: 22000, Grid vertex name: 3, Input Details: 
+Name: count[3], Number: 9, X co-ordinate: 16000, Y co-ordinate: 0, Grid vertex name: 20, Input Details: 
+Name: count[2], Number: 10, X co-ordinate: 16000, Y co-ordinate: 0, Grid vertex name: 20, Input Details: 
+Name: count[1], Number: 11, X co-ordinate: 28000, Y co-ordinate: 0, Grid vertex name: 40, Input Details: 
+Name: count[0], Number: 12, X co-ordinate: 28000, Y co-ordinate: 0, Grid vertex name: 40, Input Details: 
+Name: n_0, Number: 13, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_1, Number: 14, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_2, Number: 15, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_3, Number: 16, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_4, Number: 17, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_5, Number: 18, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_6, Number: 19, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_7, Number: 20, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_8, Number: 21, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_9, Number: 22, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_10, Number: 23, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_11, Number: 24, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_12, Number: 25, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: n_13, Number: 26, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details: 
+Name: scan_out, Number: 27, X co-ordinate: 24000, Y co-ordinate: 38000, Grid vertex name: 46, Input Details:  Input pin: *27, Values: ( 0 0 0 0 0 13.523 ),
+Name: count_reg\[7\], Number: 28, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 22000 24000 34 1 8 ), Input pin: D, Values: ( 26 28000 24000 44 1 8 ), Input pin: Q, Values: ( 5 20000 26000 34 0 8 ), Input pin: RN, Values: ( 2 24000 24000 44 1 8 ), Input pin: SE, Values: ( 3 30000 24000 54 1 8 ), Input pin: SI, Values: ( 6 30000 24000 54 1 8 ),
+Name: count_reg\[6\], Number: 29, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 28000 20000 43 1 8 ), Input pin: D, Values: ( 25 34000 22000 53 1 8 ), Input pin: Q, Values: ( 6 26000 20000 43 0 8 ), Input pin: RN, Values: ( 2 30000 20000 53 1 8 ), Input pin: SE, Values: ( 3 36000 20000 63 1 8 ), Input pin: SI, Values: ( 12 36000 20000 63 1 8 ),
+Name: count_reg\[5\], Number: 30, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 14000 20000 23 1 8 ), Input pin: D, Values: ( 22 20000 22000 33 1 8 ), Input pin: Q, Values: ( 7 12000 20000 23 0 8 ), Input pin: RN, Values: ( 2 16000 20000 23 1 8 ), Input pin: SE, Values: ( 3 22000 20000 33 1 8 ), Input pin: SI, Values: ( 10 22000 20000 33 1 8 ),
+Name: g199__2398, Number: 31, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A, Values: ( 5 24000 28000 44 1 8 ), Input pin: B, Values: ( 24 26000 28000 44 1 8 ), Input pin: Y, Values: ( 26 24000 28000 44 0 0.663 ),
+Name: g201__5107, Number: 32, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A0, Values: ( 6 32000 28000 54 1 3.314 ), Input pin: A1, Values: ( 23 32000 28000 54 1 1.988 ), Input pin: B0, Values: ( 24 32000 28000 54 1 8 ), Input pin: Y, Values: ( 25 34000 28000 54 0 8 ),
+Name: count_reg\[4\], Number: 33, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 6000 24000 14 1 8 ), Input pin: D, Values: ( 21 14000 24000 24 1 8 ), Input pin: Q, Values: ( 8 6000 26000 14 0 5.303 ), Input pin: RN, Values: ( 2 8000 24000 14 1 8 ), Input pin: SE, Values: ( 3 16000 24000 24 1 8 ), Input pin: SI, Values: ( 7 14000 24000 24 1 8 ),
+Name: g203__6260, Number: 34, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A, Values: ( 6 24000 30000 45 1 8 ), Input pin: B, Values: ( 23 24000 30000 45 1 1.988 ), Input pin: Y, Values: ( 24 24000 32000 45 0 8 ),
+Name: g204__4319, Number: 35, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A0N, Values: ( 7 18000 28000 34 1 8 ), Input pin: A1N, Values: ( 20 18000 28000 34 1 8 ), Input pin: B0, Values: ( 23 16000 28000 24 1 8 ), Input pin: Y, Values: ( 22 16000 28000 24 0 8 ),
+Name: count_reg\[3\], Number: 36, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 6000 18000 13 1 8 ), Input pin: D, Values: ( 18 14000 16000 22 1 8 ), Input pin: Q, Values: ( 9 6000 18000 13 0 8 ), Input pin: RN, Values: ( 2 8000 18000 13 1 8 ), Input pin: SE, Values: ( 3 16000 18000 23 1 8 ), Input pin: SI, Values: ( 8 14000 18000 23 1 8 ),
+Name: count_reg\[2\], Number: 37, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 14000 8000 21 1 8 ), Input pin: D, Values: ( 16 20000 8000 31 1 8 ), Input pin: Q, Values: ( 10 14000 6000 21 0 8 ), Input pin: RN, Values: ( 2 16000 8000 21 1 8 ), Input pin: SE, Values: ( 3 22000 8000 31 1 8 ), Input pin: SI, Values: ( 4 22000 8000 31 1 8 ),
+Name: g207__8428, Number: 38, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A0N, Values: ( 8 10000 28000 14 1 8 ), Input pin: A1N, Values: ( 19 10000 28000 14 1 8 ), Input pin: B0, Values: ( 20 10000 28000 14 1 8 ), Input pin: Y, Values: ( 21 8000 28000 14 0 8 ),
+Name: g206__5526, Number: 39, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A, Values: ( 7 18000 32000 35 1 8 ), Input pin: B, Values: ( 20 16000 30000 25 1 7.291 ), Input pin: Y, Values: ( 23 18000 32000 35 0 8 ),
+Name: g209__6783, Number: 40, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A, Values: ( 8 10000 32000 15 1 8 ), Input pin: B, Values: ( 19 10000 30000 15 1 8 ), Input pin: Y, Values: ( 20 12000 32000 25 0 8 ),
+Name: g210__3680, Number: 41, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A0N, Values: ( 9 10000 14000 12 1 8 ), Input pin: A1N, Values: ( 17 12000 14000 22 1 8 ), Input pin: B0, Values: ( 19 10000 14000 12 1 8 ), Input pin: Y, Values: ( 18 10000 14000 12 0 8 ),
+Name: count_reg\[1\], Number: 42, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 28000 10000 41 1 8 ), Input pin: D, Values: ( 15 34000 10000 51 1 8 ), Input pin: Q, Values: ( 11 28000 12000 42 0 2.651 ), Input pin: RN, Values: ( 2 30000 10000 51 1 8 ), Input pin: SE, Values: ( 3 36000 10000 61 1 8 ), Input pin: SI, Values: ( 9 36000 10000 61 1 8 ),
+Name: g212__1617, Number: 43, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A, Values: ( 9 10000 10000 11 1 8 ), Input pin: B, Values: ( 17 10000 10000 11 1 8 ), Input pin: Y, Values: ( 19 10000 12000 12 0 8 ),
+Name: g213__2802, Number: 44, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A0N, Values: ( 10 18000 10000 31 1 8 ), Input pin: A1N, Values: ( 14 18000 10000 31 1 8 ), Input pin: B0, Values: ( 17 18000 10000 31 1 8 ), Input pin: Y, Values: ( 16 16000 10000 21 0 8 ),
+Name: count_reg\[0\], Number: 45, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: CK, Values: ( 1 28000 18000 43 1 8 ), Input pin: D, Values: ( 13 34000 16000 52 1 8 ), Input pin: Q, Values: ( 12 28000 18000 43 0 3.977 ), Input pin: RN, Values: ( 2 30000 18000 53 1 8 ), Input pin: SE, Values: ( 3 36000 18000 63 1 8 ), Input pin: SI, Values: ( 11 36000 18000 63 1 8 ),
+Name: g216__1705, Number: 46, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A0N, Values: ( 11 30000 8000 51 1 8 ), Input pin: A1N, Values: ( 12 30000 8000 51 1 8 ), Input pin: B0, Values: ( 14 28000 8000 41 1 8 ), Input pin: Y, Values: ( 15 28000 8000 41 0 8 ),
+Name: g215__5122, Number: 47, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A, Values: ( 10 18000 14000 32 1 8 ), Input pin: B, Values: ( 14 18000 14000 32 1 8 ), Input pin: Y, Values: ( 17 18000 14000 32 0 8 ),
+Name: g218__8246, Number: 48, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: AN, Values: ( 11 24000 14000 42 1 1.326 ), Input pin: B, Values: ( 13 24000 14000 42 1 8 ), Input pin: Y, Values: ( 14 24000 14000 42 0 8 ),
+Name: g219, Number: 49, X co-ordinate: -1000, Y co-ordinate: -1000, Grid vertex name: -1, Input Details:  Input pin: A, Values: ( 12 24000 16000 42 1 8 ), Input pin: Y, Values: ( 13 24000 18000 43 0 8 ),
+
+
+
+21
